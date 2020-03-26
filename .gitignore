@@ -1,0 +1,9 @@
+.idea
+*.iml
+
+__pycache__
+_virtualenv
+.cache
+.coverage
+
+.DS_Store
