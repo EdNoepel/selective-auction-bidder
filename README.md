@@ -5,7 +5,7 @@ Bids on DSS auctions with fixed prices based on auction identifier.  To be used 
 All you need is Python 3.6; there are no package dependencies.
 
 To use:
-  * Create a `config.py` as described below in the same directory as `bidder.py`.
+  * Create a `config.json` as described below in the same directory as `bidder.py`.
   * Configure `auction-keeper` with `--model "python3 ../selective-auction-bidder/bidder.py"`.
 
 ## Configuration
@@ -25,3 +25,7 @@ To use:
   "gasPrice": 3.14159
 }
 ```
+
+## Testing
+To test, you may manually execute the model and paste example signals to `stdin`, such as the one in 
+[auction-keeper documentation](https://github.com/makerdao/auction-keeper/#communicating-with-bidding-models).
